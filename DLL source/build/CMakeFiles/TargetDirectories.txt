@@ -1,0 +1,3 @@
+/mnt/data/webpanim_third_pack/build/CMakeFiles/webpanim.dir
+/mnt/data/webpanim_third_pack/build/CMakeFiles/edit_cache.dir
+/mnt/data/webpanim_third_pack/build/CMakeFiles/rebuild_cache.dir

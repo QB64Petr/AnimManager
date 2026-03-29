@@ -1,0 +1,10 @@
+^D:\QB64 4.00\QB64PE-4.0.0\ANIMOPEN VYVOJ\WEBPANIM_THIRD_PACK\BUILD32\CMAKEFILES\FA8995BE07BE1F9E792D4D389EE5CD7A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack" "-BD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32/webpanim.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

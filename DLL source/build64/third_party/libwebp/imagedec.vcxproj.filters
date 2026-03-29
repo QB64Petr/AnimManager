@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\image_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\jpegdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\metadata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pngdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pnmdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\tiffdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\webpdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\wicdec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\image_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\jpegdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pngdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pnmdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\tiffdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\webpdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\wicdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84193977-D8C2-36F1-9940-3812F00535DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{07A076C3-8412-3AF5-B240-4F8DD1C76664}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

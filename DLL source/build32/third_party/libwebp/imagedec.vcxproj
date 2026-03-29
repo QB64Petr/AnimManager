@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4253C2D0-1FD3-33C4-9820-6ACE60AD4B7E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>imagedec</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">imagedec.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libimagedec</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">imagedec.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libimagedec</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">imagedec.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libimagedec</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">imagedec.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libimagedec</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\src;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/third_party/libwebp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack" "-BD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32" --check-stamp-file "D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32/third_party/libwebp/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\WebPConfig.cmake.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\config.h.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\cpu.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\deps.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\sharpyuv\libsharpyuv.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\demux\libwebpdemux.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebp.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebpdecoder.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\mux\libwebpmux.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/third_party/libwebp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack" "-BD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32" --check-stamp-file "D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32/third_party/libwebp/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\WebPConfig.cmake.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\config.h.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\cpu.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\deps.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\sharpyuv\libsharpyuv.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\demux\libwebpdemux.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebp.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebpdecoder.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\mux\libwebpmux.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/third_party/libwebp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack" "-BD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32" --check-stamp-file "D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32/third_party/libwebp/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\WebPConfig.cmake.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\config.h.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\cpu.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\deps.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\sharpyuv\libsharpyuv.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\demux\libwebpdemux.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebp.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebpdecoder.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\mux\libwebpmux.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/third_party/libwebp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack" "-BD:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32" --check-stamp-file "D:/QB64 4.00/QB64pe-4.0.0/AnimOpen vyvoj/webpanim_third_pack/build32/third_party/libwebp/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\WebPConfig.cmake.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\config.h.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\cpu.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\cmake\deps.cmake;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\sharpyuv\libsharpyuv.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\demux\libwebpdemux.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebp.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\libwebpdecoder.pc.in;D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\src\mux\libwebpmux.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\image_dec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\image_dec.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\jpegdec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\jpegdec.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\metadata.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\metadata.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pngdec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pngdec.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pnmdec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\pnmdec.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\tiffdec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\tiffdec.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\webpdec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\webpdec.h" />
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\wicdec.c" />
+    <ClInclude Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\imageio\wicdec.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\ZERO_CHECK.vcxproj">
+      <Project>{EF7112F8-9CB2-384D-97EB-0B69A371B700}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\imageioutil.vcxproj">
+      <Project>{A6E1B771-3120-3841-A370-3D3B0045A7EC}</Project>
+      <Name>imageioutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\sharpyuv.vcxproj">
+      <Project>{3867D3FD-F9E8-32C2-A855-BB0561FAC9EA}</Project>
+      <Name>sharpyuv</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\webp.vcxproj">
+      <Project>{A68438BC-9037-3958-9E38-835C1241B256}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\webpdemux.vcxproj">
+      <Project>{6275EF05-D119-3F71-8314-175D16133663}</Project>
+      <Name>webpdemux</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

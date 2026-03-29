@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\extras\get_disto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\third_party\libwebp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0AE5AE20-53F0-363E-AC58-0119967168EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+for 64bit DLL:
+
+cmake -S . -B build64 -G "Visual Studio 17 2022" -A x64 -DWEBPANIM_USE_BUNDLED_LIBWEBP=ON
+cmake --build build64 --config Release
+
+for 32bit DLL:
+cmake -S . -B build32 -G "Visual Studio 17 2022" -A Win32 -DWEBPANIM_USE_BUNDLED_LIBWEBP=ON
+cmake --build build32 --config Release
+
+so file for Linux included in LNX directory
+
+third_party content in third party directory downloaded from https://github.com/webmproject/libwebp 
+(author say, this allow you also save webP files, but that is not my target in this work)

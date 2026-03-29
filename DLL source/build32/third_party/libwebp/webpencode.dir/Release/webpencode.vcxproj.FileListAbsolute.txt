@@ -1,0 +1,1 @@
+D:\QB64 4.00\QB64pe-4.0.0\AnimOpen vyvoj\webpanim_third_pack\build32\third_party\libwebp\webpencode.dir\Release\webpencode.lib

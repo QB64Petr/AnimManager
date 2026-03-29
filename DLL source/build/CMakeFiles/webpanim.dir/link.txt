@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wl,--dependency-file=CMakeFiles/webpanim.dir/link.d -shared -Wl,-soname,libwebpanim.so -o libwebpanim.so CMakeFiles/webpanim.dir/src/webpanim.c.o  /usr/lib/x86_64-linux-gnu/libwebpdemux.so /usr/lib/x86_64-linux-gnu/libwebp.so

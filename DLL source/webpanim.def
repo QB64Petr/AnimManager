@@ -1,0 +1,9 @@
+LIBRARY webpanim
+EXPORTS
+    wp_open_memory
+    wp_get_info
+    wp_get_next_rgba
+    wp_get_next_bgra
+    wp_reset
+    wp_close
+    wp_get_last_error
